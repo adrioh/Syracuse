@@ -46,4 +46,4 @@ if __name__ == '__main__':
     print("Suite de Syracuse pour n =", n)
     print(suite_syracuse(n))
     print("Temps de vol total:      ", temps_syracuse(n))
-    print("Temps de vol en altitude:", temps_syracuse(n, altitude=True))
+    print("Temps de vol en altitude :", temps_syracuse(n, altitude=True))
