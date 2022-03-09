@@ -1,3 +1,5 @@
+n = int(input("entrer une valeur : "))
+p = int(input("entrer une valeur : "))
 def multiplication(n, p):
     """ Renvoie le produit de n par p """
     produit = 0
@@ -7,4 +9,5 @@ def multiplication(n, p):
         n //= 2 # division euclidienne par 2 du multiplicateur
         p *= 2 # multiplication par 2 du multiplicande
     return produit
-print(multiplication(2,3))
+
+print(multiplication(n,p))
